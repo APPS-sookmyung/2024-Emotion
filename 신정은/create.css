@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d0d0d;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
