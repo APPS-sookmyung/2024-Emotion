@@ -1,9 +1,7 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/main.html"
-    }
+  "routes": [
+    { "src": "/", "dest": "/main.html" },
+    { "src": "/create", "dest": "/create.html" },
+    { "src": "/storage", "dest": "/storage.html" }
   ]
 }
-
