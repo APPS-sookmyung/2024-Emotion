@@ -1,7 +1,16 @@
 {
   "routes": [
-    { "src": "/", "dest": "/main.html" },
-    { "src": "/create", "dest": "/create.html" },
-    { "src": "/storage", "dest": "/storage.html" }
+    {
+      "src": "/",
+      "dest": "/main.html"
+    },
+    {
+      "src": "/create",
+      "dest": "/create.html"
+    },
+    {
+      "src": "/storage",
+      "dest": "/storage.html"
+    }
   ]
 }
