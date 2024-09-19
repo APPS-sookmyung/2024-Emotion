@@ -3,7 +3,6 @@
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
     { "source": "/create", "destination": "/create.html" },
-    { "source": "/storage", "destination": "/storage.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/storage", "destination": "/storage.html" }
   ]
 }
