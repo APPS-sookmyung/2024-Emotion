@@ -32,8 +32,8 @@ header nav ul {
     color: white;
     width: 150px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), /* 강한 그림자로 입체감 생성 */
-                 0 12px 24px rgba(0, 0, 0, 0.2); /* 부드러운 그림자로 깊이감 생성 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6),
+                 0 12px 24px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 

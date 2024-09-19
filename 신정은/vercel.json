@@ -1,16 +1,8 @@
 {
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/main.html"
-    },
-    {
-      "src": "/create",
-      "dest": "/create.html"
-    },
-    {
-      "src": "/storage",
-      "dest": "/storage.html"
-    }
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/create", "destination": "/create.html" },
+    { "source": "/storage", "destination": "/storage.html" }
   ]
 }
