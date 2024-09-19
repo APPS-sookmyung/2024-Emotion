@@ -1,7 +1,9 @@
 {
+  "cleanUrls": true,
   "rewrites": [
     { "source": "/", "destination": "/main.html" },
     { "source": "/create", "destination": "/create.html" },
-    { "source": "/storage", "destination": "/storage.html" }
+    { "source": "/storage", "destination": "/storage.html" },
+    { "source": "/(.*)", "destination": "/main.html" }
   ]
 }
