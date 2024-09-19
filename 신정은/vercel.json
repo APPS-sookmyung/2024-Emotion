@@ -1,16 +1,7 @@
 {
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/main.html"
-    },
-    {
-      "src": "/create",
-      "dest": "/create.html"
-    },
-    {
-      "src": "/storage",
-      "dest": "/storage.html"
-    }
+  "rewrites": [
+    { "source": "/", "destination": "/main.html" },
+    { "source": "/create", "destination": "/create.html" },
+    { "source": "/storage", "destination": "/storage.html" }
   ]
 }
